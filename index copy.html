@@ -27,8 +27,8 @@
   </head>
   <body>
     <!-- Sign-up form start -->
-    <main role="main" class="container">
-      <article class="right-side">
+    <div class="container ">
+      <div class="right-side">
         <h1>Stay Updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
         <ul>
@@ -43,42 +43,31 @@
             Subscribe to monthly newsletter
           </button>
         </form>
-      </article>
+      </div>
 
-      <article
-        class="left-side"
-        role="form"
-        aria-label="Newsletter sign-up form"
-      >
+      <div class="left-side">
         <picture>
-          <source
-            media="(max-width: 767px)"
-            srcset="./assets/images/illustration-sign-up-mobile.svg"
-          />
+          <source media="(max-width: 767px)" srcset="./assets/images/illustration-sign-up-mobile.svg">
           <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
         </picture>
-      </article>
-    </main>
+      </div>
+    </div>
 
     <!-- Success message start -->
-    <div class="notification hide" role="alert" aria-live="assertive">
-      <img
-        src="./assets/images/icon-success.svg"
-        alt="icon success"
-        class="icon-success-notification"
-      />
+    <div class="notification hide">
+      <img src="./assets/images/icon-success.svg" alt="icon success" class="icon-success-notification">
       <h2>Thanks for subscribing!</h2>
-
+      
       <p>
-        A confirmation email has been sent to<br />
-        <span>ash@loremcompany.com.</span> Please open it and click<br />
+        A confirmation email has been sent to<br>
+       <span>ash@loremcompany.com.</span> Please open it and click<br> 
         the button inside to confirm your subscription.
       </p>
       <button class="btn">Dismiss message</button>
     </div>
     <!-- Success message end -->
 
-    <div class="attribution" role="contentinfo">
+    <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
